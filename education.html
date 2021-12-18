@@ -1,0 +1,323 @@
+<html>
+<head>
+<title>Education</title>
+</head>
+<body>
+
+<body bgcolor="#ccd5d2">
+
+
+<table width="100%" align="center" valign="middle" cellpadding="5">
+<tr align="center">
+<td><img src="images/banner.png" alt="Welcome to Farah's Blog"></td>
+</tr>
+
+<tr align="right"><time id="msg"></time>
+
+<script>
+  document.getElementById("msg").innerHTML = new Date().toLocaleString();
+</script><td></td></tr>
+
+<tr><td></td></tr>
+
+<tr align="center">
+<td>
+<img src="images/logo.png" alt="Farah's Blog">
+</td>
+</tr>
+
+<tr><td></td></tr>
+</table>
+
+
+<table border="1 "width="90%" align="center" valign="middle" cellpadding="20">
+<tr align="center">
+<td><a href="index.html"><img src="images/buttonhome.png"></a></td>
+<td><a href="biodata.html"><img src="images/buttonbiodata.png"></a></td>
+<td><a href="experience.html"><img src="images/buttonexp.png"></a></td>
+<td><a href="education.html"><img src="images/buttoneducation.png"></a></td>
+<td><a href="family.html"><img src="images/buttonfamily.png"></a></td>
+<td><a href="hostel.html"><img src="images/buttonhostel.png"></a></td>
+<td><a href="gallery.html"><img src="images/buttongallery.png"></a></td>
+
+
+<table width="90%" align="center" valign="middle" cellpadding="20">
+<tr><td></td></tr>
+<tr align="center">
+<td>
+<h1 align="center"><font color="#152935" font size="50" font face="verdana">EDUCATION</font></h1>
+</td>
+</tr>
+
+<tr align="center">
+<td bgcolor="#fde5d6">
+<font face = "Lato">“Education is not a race, it’s a journey.”
+</font>
+</td>
+</tr>
+
+<tr><td></td></tr>
+</table>
+
+
+<table width="80%" align="center" valign="middle" cellpadding="10">
+<tr align="center">
+<td><img src="images/sch2.jpg" border="3" alt="My Classmates"></td>
+<td><img src="images/sch1.jpg" border="3" alt="SKSR"></td>
+<td><img src="images/sch3.jpg" border="3" alt="Uniform of Puteri Islam"></td>
+</tr>
+
+<tr align="center">
+<th colspan="3">Primary school: Sekolah Kebangsaan Sungai Rokam, Ipoh, Perak (2008-2013)</th>
+</tr>
+
+<tr align="justify">
+<td colspan="3"><font face = "Lato">The experience in primary school was hard for me to remember as a whole but I had a lot of fun because I had met so many new friends and teachers who were always kind to me. Basically, without them, I would not be able to count, read and speak fluently. Terima kasih cikgu! In terms of achievement, I got a 3A 2B result for the <abbr title="Ujian Pencapaian Sekolah Rendah">UPSR</abbr>. It was not a result I can be proud of but I am still thankful. Well, my journey and success would not stop here. In terms of co-curriculum, I am also not a great student of sports but with this physical involvement of co-curriculum, I was more active during primary school than secondary school. Maybe because I like to play. Among the successes, I have achieved in the field of primary school co-curriculum are:
+<ul type="square">
+<li>Netball First Runner-up - Month of Co-curriculum</li>
+<li>Handball First Runner-up - Month of Co-curriculum</li>
+<li>Bowling First Runner-up - Month of Co-curriculum</li>
+<li>Ahli jawatankuasa  Pengawas Pembimbing Rakan Sebaya (2010-2013)</li>
+<li>Third place in the Choral Speaking Competition 2011</li>
+</ul>
+</font></td>
+</tr>
+
+<tr align="center">
+<td colspan="3">
+<div class="w3-display-container mySlides">
+  <img src="images/education1.jpeg" style="width:50%">
+  <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+    UPSR Result
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="images/education2.jpeg" style="width:20%">
+  <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+    Netball Certificate
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="images/education3.jpeg" style="width:20%">
+  <div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black">
+    Handball Certificate
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="images/education4.jpeg" style="width:20%">
+  <div class="w3-display-topright w3-large w3-container w3-padding-16 w3-black">
+    Bowling Certificate
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="images/education5.jpeg" style="width:20%">
+  <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black">
+    AJK PRS Certificate
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="images/education6.jpeg" style="width:20%">
+  <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black">
+    Choral Speaking Certificate
+  </div>
+</div>
+
+<button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+</td></tr>
+</table>
+
+
+<br>
+<br>
+<br>
+
+
+<table width="80%" align="center" valign="middle" cellpadding="10">
+<tr align="center">
+<td><img src="images/sch4.jpg" border="3" alt="In front of the office"></td>
+<td><img src="images/sch5.jpg" border="3" alt="SRC"></td>
+<td><img src="images/sch6.jpg" border="3" alt="SRC Main Hall">
+</td></tr>
+
+<tr align="center">
+<th colspan="3">Secondary school: Sekolah Menengah Kebangsaan Raja Chulan, Ipoh, Perak (2014-2018)</th>
+</tr>
+
+<tr align="justify">
+<td colspan="3"><font face = "Lato">My high school life was pretty challenging for me and it is the memories that is hard for me to forget. It is the process of getting to know myself, choosing the right friends and also the process for me to manage my life without anyone’s help because I lived in a hostel from form one to form 5. Lots of bitter and sweet memories I have gone through even though I am not mature enough to go through a lot of things, but to some extent, it can give me mental and physical preparation for me to go through university level and adulthood. For my academic achievement, I got 4A 4B 1C only for <abbr title="Pentaksiran Tingkatan 3">PT3</abbr> and got 2A 4B+ 2C+ for <abbr title="Sijil Penilaian Malaysia">SPM</abbr> that consists of core subjects, accounts, and economics.
+<br>
+<br>
+While in co-curricular involvement in high school, I was more active in involvement involving committee members than sports. For example, I joined a music class from form one to form 5 where I learned to play musical instruments such as playing gamelan, kompang, trumpet, etc. and play at official school events or functions. Also, I got involved and got second place in the <abbr title="Festival Nasyid Asrama">FENAS</abbr> in 2014 and participated in the North Kinta Zone Rhythmic Speaking Competition in 2015. I also joined a volunteer program which is food preparation and serving to participants of Motivation Camp at the School Level of Kinta Utara District, Gunung Lang, Ipoh, Perak (25-26 August 2018). Moreover, I used to be a committee member in several clubs, sports, uniformed teams, and supervisors which was the best experience for me to further hone my leadership traits. Among them are:
+<ul type="square">
+<li>Deputy Chairperson – Petanque Club, SMK. Raja Chulan, Ipoh, Perak</li>
+<li>Exco Member = Aspuri, SMK. Raja Chulan, Ipoh, Perak</li>
+<li>Committee Member – Kelab Ekonomi & Keusahawanan</li>
+<li>Assistant Treasurer – Police Cadet, SMK. Raja Chulan, Ipoh, Perak</li>
+<li>School Prefect – Pembimbing Rakan Sebaya (PRS), SMK. Raja Chulan, Ipoh, Perak</li>
+<li>Participant & First Runner Up – Festival Nasyid Asrama (FENAS), SMK Raja Chulan, Ipoh, Perak</li>
+<li>Participant & First Runner Up – Nasyid Competition during Majlis Taddarus Al’Quran at the School Level of Kinta Utara District</li>
+<li>Participant – Hari Sukan Negara at Perak State Level, <abbr title="Kompleks Belia dan Sukan Negeri">KBSN</abbr> Perak</li>
+<li>Participant – Competition of ‘Bicara Berirama’ at the School Level of Kinta Utara District, Sekolah Izzudin Shah, Ipoh, Perak</li>
+</ul>
+</font></td>
+</tr>
+
+<tr align="center">
+<td colspan="3">
+<div class="w3-display-container mySlides">
+  <img src="images/education7.jpg" style="width:40%">
+  <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+    EXCO Aspuri
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="images/education8.jpg" style="width:40%">
+  <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+    Police Cadet
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="images/education9.jpeg" style="width:20%">
+  <div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black">
+    PRS
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="images/education10.jpeg" style="width:20%">
+  <div class="w3-display-topright w3-large w3-container w3-padding-16 w3-black">
+    FENAS Certificate
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="images/education11.jpeg" style="width:20%">
+  <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black">
+    Nasyid Competition Certificate
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="images/education12.jpeg" style="width:20%">
+  <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black">
+    Hari Sukan Negara Certificate
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="images/education13.jpeg" style="width:20%">
+  <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black">
+    Bicara Berirama Certificate
+  </div>
+</div>
+
+<button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+</td></tr>
+</table>
+
+<tr align="center">
+<td colspan="3"></td>
+</tr>
+
+
+<br>
+<br>
+<br>
+
+
+<table width="80%" align="center" valign="middle" cellpadding="10">
+<tr align="center">
+<td><img src="images/sch7.jpg" border="3" alt="UiTM Merbok, Kedah"></td>
+<td><img src="images/sch8.jpg" border="3" alt="Academic Building"></td>
+<td><img src="images/sch9.jpg" border="3" alt="Entrance of UiTM Merbok">
+</td></tr>
+
+<tr align="center">
+<th colspan="3">University level: Universiti Teknologi MARA (UiTM) Merbok, Sungai Petani, Kedah (2019-2022)</th>
+</tr>
+
+<tr align="justify">
+<td colspan="3"><font face = "Lato">In the university era, I started to be a student who focused on learning instead of sports involvement and a committee member. This is because my parents were less satisfied with my academic results while in high school. I applied for a course that involved my skills and crafts instead of involving mathematics and numbering. Then, I had accepted as a student of the Faculty of Information Management which involves the retrieval and organized information management skills. Alhamdulillah, along being an information management student, I get a dean list every semester and finally I can make my parents proud of me. Besides, I also joined the Runners club and held the position of secretary in 2019-2018 only because after the covid-19 pandemic hit the world, university students have to learn from home called Online Distance Learning (ODL). So the involvement of our sports and committee members is limited. But during the ODL, I was involved in the Photo Raya Editing Competition at a historic place in Malaysia and I got second place by winning a cash prize of RM40. Photo and video editing is a skills I had learned from the information management faculty that is very useful to me and I am very grateful to continue my studies here. I hope I can continue my studies at the undergraduate level with better experience.
+</font></td>
+</tr>
+
+<tr align="center">
+<td colspan="3"><img src="images/education14.png" alt="Photo Raya Editing Competition"></td>
+</tr>
+
+<tr align="center">
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+
+
+<table width="100%" align="center" valign="middle" cellpadding="20">
+<tr><td colspan="3"></td></tr>
+<tr align="center"><td colspan="3"><a href="#top"><img src="images/top.png"</a></td></tr>
+
+<tr align="center">
+<td colspan="2">Copyright ©2021 Farah's Blog</td>
+<td><a href="https://www.pinterest.com/farahamira393/_saved/" target="_blank"><img src="images/iconpinterest.png"></a>
+<a href="https://www.facebook.com/famyamira/" target="_blank"><img src="images/iconfb.png"></a>
+<a href="https://www.instagram.com/famyamira/" target="_blank"><img src="images/iconig.png"></a></td>
+</tr>
+</table>
+
+
+</body>
+</html>

@@ -1,0 +1,194 @@
+<html>
+<head>
+<title>Gallery</title>
+<link rel="stylesheet" type="text/css" href="website.css" />
+</head>
+<body>
+
+<body bgcolor="#ccd5d2">
+
+
+<table width="100%" align="center" valign="middle" cellpadding="5">
+<tr align="center">
+<td><img src="images/banner.png" alt="Welcome to Farah's Blog"></td>
+</tr>
+
+<tr align="right"><time id="msg"></time>
+
+<script>
+  document.getElementById("msg").innerHTML = new Date().toLocaleString();
+</script><td></td></tr>
+
+<tr><td></td></tr>
+
+<tr align="center">
+<td>
+<img src="images/logo.png" alt="Farah's Blog">
+</td>
+</tr>
+
+<tr><td></td></tr>
+</table>
+
+
+<table border="1 "width="90%" align="center" valign="middle" cellpadding="20">
+<tr align="center">
+<td><a href="index.html"><img src="images/buttonhome.png"></a></td>
+<td><a href="biodata.html"><img src="images/buttonbiodata.png"></a></td>
+<td><a href="experience.html"><img src="images/buttonexp.png"></a></td>
+<td><a href="education.html"><img src="images/buttoneducation.png"></a></td>
+<td><a href="family.html"><img src="images/buttonfamily.png"></a></td>
+<td><a href="hostel.html"><img src="images/buttonhostel.png"></a></td>
+<td><a href="gallery.html"><img src="images/buttongallery.png"></a></td>
+
+
+<table width="90%" align="center" valign="middle" cellpadding="20">
+<tr><td></td></tr>
+<tr align="center">
+<td>
+<h1 align="center"><font color="#152935" font size="50" font face="verdana">GALLERY</font></h1>
+</td>
+</tr>
+
+<tr align="center">
+<td bgcolor="#fde5d6">
+<font face = "Lato">“Pictures are the only memories that last forever."
+</font>
+</td>
+</tr>
+
+<tr><td></td></tr>
+</table>
+
+
+<table border="1" width="80%" align="center" valign="middle" cellpadding="10">
+<tr align="center"><th>Experience</th></tr>
+<tr align="center"><td>
+<div class="w3-content w3-display-container">
+  <img class="mySlides1" src="images/korea(1).jpg" style="width:50%">
+  <img class="mySlides1" src="images/korea(2).jpg" style="width:50%">
+  <img class="mySlides1" src="images/korea(3).jpg" style="width:50%">
+  <img class="mySlides1" src="images/korea(4).jpg" style="width:50%">
+  <img class="mySlides1" src="images/korea(5).jpg" style="width:50%">
+  <img class="mySlides1" src="images/korea(6).jpg" style="width:50%">
+  <img class="mySlides1" src="images/korea(7).jpg" style="width:50%">
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 0)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 0)">&#10095;</button>
+</div>
+</td></tr>
+
+<tr align="center"><th>Education</th></tr>
+<tr align="center"><td>
+<div class="w3-content w3-display-container">
+  <img class="mySlides2" src="images/school(1).jpg" style="width:50%">
+  <img class="mySlides2" src="images/school(2).jpg" style="width:50%">
+  <img class="mySlides2" src="images/school(3).jpg" style="width:50%">
+  <img class="mySlides2" src="images/school(4).jpg" style="width:50%">
+  <img class="mySlides2" src="images/school(5).jpg" style="width:50%">
+  <img class="mySlides2" src="images/school(6).jpg" style="width:50%">
+  <img class="mySlides2" src="images/school(7).jpg" style="width:50%">
+  <img class="mySlides2" src="images/school(8).jpg" style="width:50%">
+  <img class="mySlides2" src="images/school(9).jpg" style="width:50%">
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 1)">&#10095;</button>
+</div>
+</td></tr>
+</table>
+
+<script>
+var slideIndex = [1,1];
+var slideId = ["mySlides1", "mySlides2"]
+showDivs(1, 0);
+showDivs(1, 1);
+
+function plusDivs(n, no) {
+  showDivs(slideIndex[no] += n, no);
+}
+
+function showDivs(n, no) {
+  var i;
+  var x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex[no]-1].style.display = "block";  
+}
+</script>
+
+
+<br>
+
+
+<table border="1" width="80%" align="center" valign="middle" cellpadding="10">
+<tr align="center"><th>Family</th></tr>
+<tr align="center"><td>
+<div class="w3-content w3-display-container">
+  <img class="mySlides1" src="images/fam(1).jpg" style="width:50%">
+  <img class="mySlides1" src="images/fam(2).jpg" style="width:30%">
+  <img class="mySlides1" src="images/fam(3).jpg" style="width:50%">
+  <img class="mySlides1" src="images/fam(4).jpg" style="width:50%">
+  <img class="mySlides1" src="images/fam(5).jpg" style="width:50%">
+  <img class="mySlides1" src="images/fam(6).jpg" style="width:50%">
+  <img class="mySlides1" src="images/fam(7).jpg" style="width:50%">
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 0)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 0)">&#10095;</button>
+</div>
+</td></tr>
+
+<tr align="center"><th>Hostel</th></tr>
+<tr align="center"><td>
+<div class="w3-content w3-display-container">
+  <img class="mySlides2" src="images/hostel(1).jpg" style="width:50%">
+  <img class="mySlides2" src="images/hostel(2).jpg" style="width:50%">
+  <img class="mySlides2" src="images/hostel(3).jpg" style="width:50%">
+  <img class="mySlides2" src="images/hostel(4).jpg" style="width:50%">
+  <img class="mySlides2" src="images/hostel(5).jpg" style="width:50%">
+  <img class="mySlides2" src="images/hostel(6).jpg" style="width:50%">
+  <img class="mySlides2" src="images/hostel(7).jpg" style="width:50%">
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 1)">&#10095;</button>
+</div>
+</td></tr>
+</table>
+
+
+<script>
+var slideIndex = [1,1];
+var slideId = ["mySlides1", "mySlides2"]
+showDivs(1, 0);
+showDivs(1, 1);
+
+function plusDivs(n, no) {
+  showDivs(slideIndex[no] += n, no);
+}
+
+function showDivs(n, no) {
+  var i;
+  var x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex[no]-1].style.display = "block";  
+}
+</script>
+
+
+<table width="100%" align="center" valign="middle" cellpadding="20">
+<tr><td colspan="3"></td></tr>
+<tr align="center"><td colspan="3"><a href="#top"><img src="images/top.png"</a></td></tr>
+
+<tr align="center">
+<td colspan="2">Copyright ©2021 Farah's Blog</td>
+<td><a href="https://www.pinterest.com/farahamira393/_saved/" target="_blank"><img src="images/iconpinterest.png"></a>
+<a href="https://www.facebook.com/famyamira/" target="_blank"><img src="images/iconfb.png"></a>
+<a href="https://www.instagram.com/famyamira/" target="_blank"><img src="images/iconig.png"></a></td>
+</tr>
+</table>
+
+
+</body>
+</html>
